@@ -1,0 +1,23 @@
+# 建库后生成的向量索引：每个人应该自己跑 data_processing.py 重新建，
+# 而且体积会随语料库增大而增大，不适合存进版本库。
+faiss_index_*/
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm 项目配置（.idea/workspace.xml 等含本机路径/个人设置，不应共享）
+.idea/
+
+# 虚拟环境（如果在本项目目录下创建）
+venv/
+.venv/
+env/
+
+# 系统/编辑器杂项文件
+.DS_Store
+Thumbs.db
+
+# 如果以后用 .env 文件管理环境变量（而不是直接export），别把密钥传上去
+.env
